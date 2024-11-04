@@ -60,6 +60,10 @@ Para realizar esta práctica, necesitas conocimientos básicos de:
  - HTML y CSS
  - JavaScript (variables, funciones y manejo básico de eventos)
 
+## 👩‍💻 Autor
+
+- [Emilse Andrea Arias](https://github.com/emiarias)
+
 ## 📚 Recursos Adicionales
 Para profundizar en la manipulación del DOM, consulta los siguientes recursos:
 

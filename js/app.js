@@ -42,12 +42,21 @@ function crearParrafo() {
   }
 }
 
+function obtenerTexto(e){
+    e.preventDefault();
+    console.log('aqui tengo que buscar el texto del input')
+    const input = document.querySelector('#busqueda')
+    console.log(input.value)
+}
+
 //1- buscar el boton ver mas
 const btnVermas = document.querySelector(".btn-outline-info");
 console.log(btnVermas);
+const formulario = document.querySelector('form')
 
 //2- agregar el evento
 //el segundo argumento si la funcion no tiene argumentos va solo el nombre, caso contrario hay que usar una funcion anonimas
 // btnVermas.addEventListener('click', function (){ crearParrafo('hola')})
 // btnVermas.addEventListener('click', ()=> crearParrafo('hola'))
 btnVermas.addEventListener("click", crearParrafo);
+formulario.addEventListener('submit', obtenerTexto)
